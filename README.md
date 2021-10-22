@@ -2,7 +2,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://heuristic-yalow-ffa649.netlify.app/">
+    <a href="https://sharp-swartz-33712c.netlify.app/">
       Play Game
     </a>
     <span> | </span>
