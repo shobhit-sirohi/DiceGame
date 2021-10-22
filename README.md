@@ -14,7 +14,7 @@
 
 ## Overview
 
-<img width="1440" alt="GamePlay" src="./src/images/scr.png">
+<img width="1440" alt="GamePlay" src="./images/scr.png">
 
 ### Built With
 
