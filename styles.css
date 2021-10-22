@@ -1,0 +1,79 @@
+.bodySection {
+  font-family: "Inter", sans-serif;
+  background-color: #c7b9ff;
+}
+.heading {
+  text-align: center;
+  margin: 50px;
+}
+.mainDiv {
+  width: auto;
+}
+.mainDiceDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.widthOneThird {
+  width: 33.33%;
+
+  text-align: center;
+}
+.textSizeMedium {
+  font-size: 40px;
+}
+img {
+  width: 170px;
+  height: 170px;
+  animation: spin 0.3s linear;
+}
+
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+.gridContainer {
+  padding-top: 30px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 50px 0px;
+}
+.gridItem {
+  justify-self: center;
+}
+.loadingDiv {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  margin: 30px;
+}
+.outputDiv {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+h1 {
+  font-size: 70px;
+  margin: 20px;
+}
+button {
+  font-family: "Inter", sans-serif;
+  font-size: 40px;
+  cursor: pointer;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: black;
+  border-width: 5px;
+  width: 140px;
+  height: 70px;
+}
+p {
+  margin: 0px;
+}

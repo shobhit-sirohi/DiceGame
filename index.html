@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="shortcut icon" href="images/5.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Roll The Dice</title>
+  </head>
+  <body class="bodySection">
+    <div class="mainDiv">
+      <!-- top header div -->
+      <div class="heading">
+        <!-- Main Heading -->
+        <h1>Roll The Dice</h1>
+      </div>
+      <div class="mainDiceDiv">
+        <!-- selected choice, dice and score -->
+        <div class="widthOneThird textSizeMedium">
+          <!-- selected choice section -->
+          <p class="">Selected choice</p>
+
+          <p class="selectedChoiceVar"></p>
+        </div>
+        <div class="widthOneThird dice">
+          <!-- dice -->
+        </div>
+        <div class="widthOneThird textSizeMedium">
+          <!-- score section -->
+          <p>Score</p>
+          <p class="scoreVar"></p>
+        </div>
+      </div>
+      <div>
+        <!-- buttons grid -->
+        <div class="gridContainer">
+          <div class="gridItem">
+            <button class="buttonOne">1</button>
+          </div>
+          <div class="gridItem">
+            <button class="buttonTwo">2</button>
+          </div>
+          <div class="gridItem">
+            <button class="buttonThree">3</button>
+          </div>
+          <div class="gridItem">
+            <button class="buttonFour">4</button>
+          </div>
+          <div class="gridItem">
+            <button class="buttonFive">5</button>
+          </div>
+          <div class="gridItem">
+            <button class="buttonSix">6</button>
+          </div>
+        </div>
+        <div class="loadingDiv">
+          <p class="countdownMessage">
+            <!-- loading countdown message -->
+            Loading! Game will start in
+            <span class="countdownTimer"></span> seconds!
+          </p>
+        </div>
+        <div class="outputDiv">
+          <p class="outputMessage">
+            <!-- loading countdown message -->
+          </p>
+        </div>
+        <!-- <div>
+          <button>reset</button>
+        </div> -->
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
